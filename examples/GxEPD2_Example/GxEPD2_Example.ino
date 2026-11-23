@@ -2310,7 +2310,7 @@ void drawBitmaps4c400x300()
 #if defined(_GxBitmaps4c800x480_H_)
 void drawBitmaps4c800x480()
 {
-  if ((display.epd2.panel == GxEPD2::GDEM0397F81) || (display.epd2.panel == GxEPD2::GDEM075F52))
+  if ((display.epd2.panel == GxEPD2::GDEM0397F81) || (display.epd2.panel == GxEPD2::GDEM075F52) || (display.epd2.panel == GxEPD2::GDEM075F53))
   {
     display.drawNative(Bitmap4c800x480_1, 0, (display.epd2.WIDTH - 800) / 2, (display.epd2.HEIGHT - 480) / 2, 800, 480, true, false, true);
     delay(5000);
